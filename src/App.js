@@ -11,9 +11,6 @@ import Scroll from './Components/Scroll'
 
 
 
-
-
-
 const App = () => {
   return (
     <div >

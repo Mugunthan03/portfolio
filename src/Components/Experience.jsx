@@ -128,15 +128,18 @@ const Experience = () => {
         <div className='md:-mt-24'> <Anim /></div>
        
         <motion.div
-          className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 px-10 md:px-5 lg:px-10 xl:px-6'>
+          className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 px-10 md:px-5 lg:px-10 xl:px-6  '
+        >
           {skills.map(({ id, src, title, style }) => (
             <motion.div
               key={id}
               className={`shadow-md duration-500 transform py-2 rounded-lg  ${style}`}
-              initial={{ opacity: 0, x: 200 }}
-              animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 200 }}
-              transition={{ duration: 0.5, delay: id * 0.1 }}
-              whileHover={{ scale: 1.1,duration:0.2 }}>
+              initial={{ opacity: 0, x:-500 }}
+              animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x:-500 }}
+              transition={{ duration:0.8, delay: id * 0.1 }}
+              whileHover={{ scale: 1.1,duration:0.2 }} 
+             
+            >
               <img src={src} alt={title} className='w-14 h-14 mx-auto  ' />
               <p className='text-white mt-5'>{title}</p>
             </motion.div>

@@ -90,7 +90,7 @@ const ProjectSection = () => {
   return (
 
     <>
-    <div id='projects' className='bg-[#141413] xl:pb-20  md:p-10 lg:p-0'>
+    <div id='projects' className='bg-[#141413] pb-5 xl:pb-20 lg:pb-10 md:p-10 lg:p-0'>
     <h2 className='md:text-center text-4xl font-bold p-10 text-white flex justify-center '>
        <span className='border-b-4 border-gray-500 mb-2'> My Projects</span></h2>
    <div className='grid md:grid-cols-2 lg:grid-cols-3 mt-5 md:mt-10 gap-8 md:gap-12 px-10 lg:px-24 xl:px-52'>
