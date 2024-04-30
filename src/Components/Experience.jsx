@@ -18,6 +18,7 @@ import redux from '../assets/skills/redux.png';
 import mongoose from '../assets/skills/mongoose.png';
 import Anim from './Anim';
 
+
 const Experience = () => {
   const { ref, inView } = useInView({
     threshold: 0.2, // Trigger when 20% of the component is visible

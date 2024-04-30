@@ -8,16 +8,16 @@ import trip from '../assets/project/trip.png'
 import rock from '../assets/project/rock.png'
 import guess from '../assets/project/guess.png'
 import calc from '../assets/project/calc.png'
-import clock from '../assets/project/clock.png'
+import netflix from '../assets/project/netflix.png'
 
 const Projects = [
     {
         id:1,
-        title:'Udemy-clone',
-        desc : 'React | Html | Css',
-        image: udemy,
-        github:'https://github.com/Mugunthan03/Udemy-React',
-        live:'https://udemyclonereact.vercel.app/'  
+        title:'Netflix Clone',
+        desc : 'React | Firebase | Stripe | Redux | Tailwind',
+        image: netflix,
+        github:'https://github.com/Mugunthan03/Netflix-clone',
+        live:'https://netflix-clone-mugunthan-project.vercel.app/'  
     },
     {
         id:2,
@@ -35,8 +35,16 @@ const Projects = [
         github:'https://github.com/Mugunthan03/Todo-list',
         live:'https://todo-list-nine-tan.vercel.app/' 
     },
-    {
+    {        
         id:4,
+        title:'Udemy-clone',
+        desc : 'React | Html | Css',
+        image: udemy,
+        github:'https://github.com/Mugunthan03/Udemy-React',
+        live:'https://udemyclonereact.vercel.app/' 
+    },
+    {
+        id:5,
         title:'Green Den Flower Seller ',
         desc : 'Js | Tailwind',
         image: green,
@@ -44,7 +52,7 @@ const Projects = [
         live:'https://greenden.vercel.app/' 
     },
     {
-        id:5,
+        id:6,
         title:'Trip-Advisor Clone',
         desc : 'Html | Css',
         image: trip,
@@ -52,7 +60,7 @@ const Projects = [
         live:'https://trip-advisor-clone-beta.vercel.app/' 
     },
     {
-        id:6,
+        id:7,
         title:'Rock-Paper-Scissors Game',
         desc : 'Js | Html | Css',
         image: rock,
@@ -60,7 +68,7 @@ const Projects = [
         live:'https://simple-js-rock-paper-scissor.netlify.app/' 
     },
     {
-        id:7,
+        id:8,
         title:'Guess Number Game',
         desc : 'Js | Html | Css',
         image: guess,
@@ -68,21 +76,13 @@ const Projects = [
         live:'https://guess-randomnumber.netlify.app/' 
     },
     {
-        id:8,
+        id:9,
         title:'Calculator',
         desc : 'Js | Html | Css',
         image: calc,
         github:'https://github.com/Mugunthan03/calculator-js',
         live:'https://simplecalculatorjs00.netlify.app/' 
-    },
-    {
-        id:9,
-        title:'Digital Clock',
-        desc : 'Js | Html | Css',
-        image: clock,
-        github:'https://github.com/Mugunthan03/digital-clock-js',
-        live:'https://digital-clock-js00.netlify.app/' 
-    },
+    },    
 
 ]
 
