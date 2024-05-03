@@ -65,7 +65,7 @@ const Home = () => {
 
           <motion.div className='order-1 md:order-2'>
           
-            <motion.img src={profile} alt="profile"  className='rounded-image rounded-md mx-auto w-2/3 md:w-4/5 lg:w-4/5 mt-32 md:mt-0'
+            <motion.img src={profile} alt="profile"  className='rounded-image rounded-md mx-auto w-2/3 md:w-4/5 lg:w-11/12 mt-32 md:mt-0'
             initial={{y:-100,opacity:0}}
             animate={{y:0,opacity:1}} />
                       
