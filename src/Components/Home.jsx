@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
-import profile from '../assets/project/my.jpg'
+import profile from '../assets/project/profile.png'
 import './Style.css'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import {motion} from 'framer-motion'
@@ -53,7 +53,7 @@ const Home = () => {
 
           <div className=''>
             <motion.button className='text-white flex items-center gap-2 text-xl rounded-md 
-            bg-gradient-to-r from-cyan-500 to-blue-500 w-fit  px-6 py-3 my-2 group'
+            bg-gradient-to-r from-red-400 to-[#F16A6A] w-fit  px-6 py-3 my-2 group'
              initial={{x:50,opacity:0}}
              animate={{x:0,opacity:1}}>         
              
@@ -65,7 +65,7 @@ const Home = () => {
 
           <motion.div className='order-1 md:order-2'>
           
-            <motion.img src={profile} alt="profile"  className='rounded-image rounded-md mx-auto w-2/3 lg:w-2/3 mt-32 md:mt-0'
+            <motion.img src={profile} alt="profile"  className='rounded-image rounded-md mx-auto w-2/3 md:w-4/5 lg:w-4/5 mt-32 md:mt-0'
             initial={{y:-100,opacity:0}}
             animate={{y:0,opacity:1}} />
                       
