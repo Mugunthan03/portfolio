@@ -9,6 +9,8 @@ import rock from '../assets/project/rock.png'
 import guess from '../assets/project/guess.png'
 import calc from '../assets/project/calc.png'
 import netflix from '../assets/project/netflix.png'
+import youtube from '../assets/project/youtube.png'
+import weather from '../assets/project/weather.png'
 
 const Projects = [
     {
@@ -21,12 +23,12 @@ const Projects = [
     },
     {
         id:2,
-        title:'Nostra online clothing',
-        desc : 'Js | Html | Css',
-        image: nostra,
-        github:'https://github.com/Mugunthan03/nostra',
-        live:'https://nostra-gamma.vercel.app/'   
-    },
+        title:'Youtube Clone',
+        desc : 'React | Redux | Tailwind',
+        image: youtube,
+        github:'https://github.com/Mugunthan03/youtube-clone',
+        live:'https://youtube-clone-mugun.vercel.app/' 
+    },    
     {
         id:3,
         title:'Todo-List ',
@@ -35,8 +37,32 @@ const Projects = [
         github:'https://github.com/Mugunthan03/Todo-list',
         live:'https://todo-list-nine-tan.vercel.app/' 
     },
-    {        
+    {
         id:4,
+        title:'Nostra online clothing',
+        desc : 'Js | Html | Css',
+        image: nostra,
+        github:'https://github.com/Mugunthan03/nostra',
+        live:'https://nostra-gamma.vercel.app/'   
+    },
+    {
+        id:5,
+        title:'Weather App',
+        desc : 'React | Tailwind',
+        image: weather,
+        github:'https://github.com/Mugunthan03/weather',
+        live:'https://weather-rust-mu.vercel.app/' 
+    },    
+    {
+        id:6,
+        title:'Green Den Flower Seller ',
+        desc : 'Js | Tailwind',
+        image: green,
+        github:'https://github.com/Mugunthan03/greenden',
+        live:'https://greenden.vercel.app/' 
+    },
+    {        
+        id:7,
         title:'Udemy-clone',
         desc : 'React | Html | Css',
         image: udemy,
@@ -44,15 +70,7 @@ const Projects = [
         live:'https://udemyclonereact.vercel.app/' 
     },
     {
-        id:5,
-        title:'Green Den Flower Seller ',
-        desc : 'Js | Tailwind',
-        image: green,
-        github:'https://github.com/Mugunthan03/greenden',
-        live:'https://greenden.vercel.app/' 
-    },
-    {
-        id:6,
+        id:8,
         title:'Trip-Advisor Clone',
         desc : 'Html | Css',
         image: trip,
@@ -60,7 +78,7 @@ const Projects = [
         live:'https://trip-advisor-clone-beta.vercel.app/' 
     },
     {
-        id:7,
+        id:9,
         title:'Rock-Paper-Scissors Game',
         desc : 'Js | Html | Css',
         image: rock,
@@ -68,7 +86,7 @@ const Projects = [
         live:'https://simple-js-rock-paper-scissor.netlify.app/' 
     },
     {
-        id:8,
+        id:10,
         title:'Guess Number Game',
         desc : 'Js | Html | Css',
         image: guess,
@@ -76,7 +94,7 @@ const Projects = [
         live:'https://guess-randomnumber.netlify.app/' 
     },
     {
-        id:9,
+        id:11,
         title:'Calculator',
         desc : 'Js | Html | Css',
         image: calc,
