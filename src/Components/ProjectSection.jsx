@@ -11,18 +11,37 @@ import calc from '../assets/project/calc.png'
 import netflix from '../assets/project/netflix.png'
 import youtube from '../assets/project/youtube.png'
 import weather from '../assets/project/weather.png'
+import notes from '../assets/project/notes.png'
+import food from '../assets/project/food.png'
+import airbnb from '../assets/project/airbnb.png'
 
 const Projects = [
     {
         id:1,
+        title:'Notes App',
+        desc : 'MongoDB | Express Js | Node JS | Firebase | React | Tailwind',
+        image: notes,
+        github:'https://github.com/Mugunthan03/notes-app',
+        live:'https://notes-app-frontend-c153.onrender.com/'  
+    },
+    {
+        id:2,
+        title:'Food Delivery',
+        desc : 'MongoDB | Express Js | Node Js | Stripe | JWT | React | Tailwind',
+        image: food,
+        github:'https://github.com/Mugunthan03/food-delivery',
+        live:'https://food-delivery-frontend-98jk.onrender.com/'  
+    },    
+    {
+        id:3,
         title:'Netflix Clone',
-        desc : 'React | Firebase | Stripe | Redux | Tailwind',
+        desc : 'React | Firebase | Redux | Tailwind',
         image: netflix,
         github:'https://github.com/Mugunthan03/Netflix-clone',
         live:'https://netflix-clone-mugunthan-project.vercel.app/'  
     },
     {
-        id:2,
+        id:4,
         title:'Youtube Clone',
         desc : 'React | Redux | Tailwind',
         image: youtube,
@@ -30,7 +49,7 @@ const Projects = [
         live:'https://youtube-clone-mugun.vercel.app/' 
     },    
     {
-        id:3,
+        id:5,
         title:'Todo-List ',
         desc : 'React | Tailwind',
         image: todo,
@@ -38,7 +57,7 @@ const Projects = [
         live:'https://todo-list-nine-tan.vercel.app/' 
     },
     {
-        id:4,
+        id:6,
         title:'Nostra online clothing',
         desc : 'Js | Html | Css',
         image: nostra,
@@ -46,7 +65,7 @@ const Projects = [
         live:'https://nostra-gamma.vercel.app/'   
     },
     {
-        id:5,
+        id:7,
         title:'Weather App',
         desc : 'React | Tailwind',
         image: weather,
@@ -54,15 +73,23 @@ const Projects = [
         live:'https://weather-rust-mu.vercel.app/' 
     },    
     {
-        id:6,
+        id:8,
         title:'Green Den Flower Seller ',
         desc : 'Js | Tailwind',
         image: green,
         github:'https://github.com/Mugunthan03/greenden',
         live:'https://greenden.vercel.app/' 
     },
+    {
+        id:9,
+        title:'Trip-Advisor Clone',
+        desc : 'Html | Css',
+        image: trip,
+        github:'https://github.com/Mugunthan03/Trip-advisor-clone',
+        live:'https://trip-advisor-clone-beta.vercel.app/' 
+    },
     {        
-        id:7,
+        id:10,
         title:'Udemy-clone',
         desc : 'React | Html | Css',
         image: udemy,
@@ -70,15 +97,15 @@ const Projects = [
         live:'https://udemyclonereact.vercel.app/' 
     },
     {
-        id:8,
-        title:'Trip-Advisor Clone',
-        desc : 'Html | Css',
-        image: trip,
-        github:'https://github.com/Mugunthan03/Trip-advisor-clone',
-        live:'https://trip-advisor-clone-beta.vercel.app/' 
+        id:11,
+        title:'Airbnb clone',
+        desc : 'Js | Html | Css |',
+        image: airbnb,
+        github:'https://github.com/Mugunthan03/OCTANET_JUNE/tree/main/airbnb',
+        live:'https://airclone-nine.vercel.app/'  
     },
     {
-        id:9,
+        id:12,
         title:'Rock-Paper-Scissors Game',
         desc : 'Js | Html | Css',
         image: rock,
@@ -86,7 +113,7 @@ const Projects = [
         live:'https://simple-js-rock-paper-scissor.netlify.app/' 
     },
     {
-        id:10,
+        id:13,
         title:'Guess Number Game',
         desc : 'Js | Html | Css',
         image: guess,
@@ -94,7 +121,7 @@ const Projects = [
         live:'https://guess-randomnumber.netlify.app/' 
     },
     {
-        id:11,
+        id:14,
         title:'Calculator',
         desc : 'Js | Html | Css',
         image: calc,

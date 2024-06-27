@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Anim from './Anim';
 
 import html from '../assets/skills/html.png';
 import css from '../assets/skills/css.png';
@@ -9,14 +10,14 @@ import react from '../assets/skills/react.png';
 import node from '../assets/skills/node.png';
 import mongo from '../assets/skills/mongo.png';
 import tailwind from '../assets/skills/tailwind.png';
-import express from '../assets/skills/express.png';
+import express from '../assets/skills/exp.png';
 import git from '../assets/skills/git.png';
 import github from '../assets/skills/github.png';
 import netlify from '../assets/skills/netlify.png';
 import vercel from '../assets/skills/vercel.png';
 import redux from '../assets/skills/redux.png';
-import mongoose from '../assets/skills/mongoose.png';
-import Anim from './Anim';
+import firebase from '../assets/skills/fireb.png';
+import render from '../assets/skills/render.png';
 
 
 const Experience = () => {
@@ -46,15 +47,15 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: react,
-      title: 'React',
-      style: 'shadow-blue-400',
+      src: tailwind,
+      title: 'Tailwind',
+      style: 'shadow-sky-400',
     },
     {
       id: 5,
-      src: node,
-      title: 'Node Js',
-      style: 'shadow-green-500',
+      src: mongo,
+      title: 'Mongo DB',
+      style: 'shadow-green-400',
     },
     {
       id: 6,
@@ -64,51 +65,57 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: tailwind,
-      title: 'Tailwind',
+      src: react,
+      title: 'React',
       style: 'shadow-sky-400',
     },
     {
       id: 8,
-      src: mongo,
-      title: 'Mongo DB',
-      style: 'shadow-green-400',
+      src: node,
+      title: 'Node Js',
+      style: 'shadow-green-500',
     },
     {
       id: 9,
-      src: git,
-      title: 'Git',
-      style: 'shadow-red-500',
+      src: firebase,
+      title: 'Firebase',
+      style: 'shadow-yellow-700',
     },
     {
       id: 10,
-      src: github,
-      title: 'Github',
-      style: 'shadow-white',
-    },
-    {
-      id: 11,
-      src: netlify,
-      title: 'Netlify',
-      style: 'shadow-sky-400',
-    },
-    {
-      id: 12,
-      src: vercel,
-      title: 'Vercel',
-      style: 'shadow-white',
-    },
-    {
-      id: 13,
       src: redux,
       title: 'Redux',
       style: 'shadow-purple-400',
     },
     {
+      id: 11,
+      src: git,
+      title: 'Git',
+      style: 'shadow-red-500',
+    },
+    {
+      id: 12,
+      src: github,
+      title: 'Github',
+      style: 'shadow-white',
+    },
+    {
+      id: 13,
+      src: vercel,
+      title: 'Vercel',
+      style: 'shadow-white',
+    },   
+    {
       id: 14,
-      src: mongoose,
-      title: 'Mongoose',
-      style: 'shadow-red-800',
+      src: netlify,
+      title: 'Netlify',
+      style: 'shadow-sky-400',
+    },  
+    {
+      id: 15,
+      src: render,
+      title: 'Render',
+      style: 'shadow-white',
     },
   ];
 
@@ -120,7 +127,7 @@ const Experience = () => {
     >
       <div className='max-w-screen-lg flex flex-col justify-center w-full h-full mx-auto '>
         <div className='mt-10  flex justify-center'>
-          <p className='text-4xl text-white font-bold border-b-4 border-gray-500 p-2 inline mb-10'>
+          <p className='text-4xl text-white font-bold border-b-4 border-gray-500  p-2 inline mb-10'>
            Skills & Experience
           </p>
           
@@ -129,19 +136,19 @@ const Experience = () => {
         <div className='md:-mt-24'> <Anim /></div>
        
         <motion.div
-          className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 px-10 md:px-5 lg:px-10 xl:px-6  '
+          className='w-full  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 px-10 md:px-5 lg:px-10 xl:px-6  '
         >
           {skills.map(({ id, src, title, style }) => (
             <motion.div
               key={id}
-              className={`shadow-md duration-500 transform py-2 rounded-lg  ${style}`}
+              className={`shadow-md  transform py-2 rounded-lg   ${style}`}
               initial={{ opacity: 0, x:-500 }}
               animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x:-500 }}
               transition={{ duration:0.8, delay: id * 0.1 }}
-              whileHover={{ scale: 1.1,duration:0.2 }} 
+              whileHover={{ scale: 1.1 }} 
              
             >
-              <img src={src} alt={title} className='w-14 h-14 mx-auto  ' />
+              <img src={src} alt={title} className='w-14 h-14 mx-auto' />
               <p className='text-white mt-5'>{title}</p>
             </motion.div>
           ))}
