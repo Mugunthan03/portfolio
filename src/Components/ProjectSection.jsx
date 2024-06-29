@@ -37,8 +37,8 @@ const Projects = [
         title:'Netflix Clone',
         desc : 'React | Firebase | Redux | Tailwind',
         image: netflix,
-        github:'https://github.com/Mugunthan03/Netflix-clone',
-        live:'https://netflix-clone-mugunthan-project.vercel.app/'  
+        github:'https://github.com/Mugunthan03/netflix',
+        live:'https://netfli-clone-project.vercel.app/'  
     },
     {
         id:4,
