@@ -42,13 +42,11 @@ const Home = () => {
        <span className='text-[#c63c5f]'> {text}</span>
        <Cursor cursorColor='red' /></motion.h1>
 
-       <motion.p className='text-base md:text-xl py-5 text-gray-500'
+       <motion.p className='text-base md:text-lg py-5 text-gray-500'
         initial={{y:-50,opacity:0}}
         animate={{y:0,opacity:1}}
         transition={{delay:0.5}}
-        >As an enthusiastic full-stack developer, I specialize in React.js and Node.js, 
-        and I am dedicated to crafting dynamic interfaces using HTML, CSS, 
-        and JavaScript to deliver seamless user experiences.</motion.p>
+        >As a skilled developer, I specialize in MERN stack development. I focus on utilizing React js to construct dynamic interfaces, supported by expertise in Node js, Express js, and MongoDB. My main objective is to create smooth and user-friendly experiences.</motion.p>
 
 
           <div className=''>

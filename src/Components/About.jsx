@@ -31,15 +31,14 @@ const About = () => {
 
           <div className='flex justify-center items-center flex-wrap'>
             <motion.p
-              className='md:text-xl  flex-1 p-10 w-full'
+              className='md:text-xl tracking-wider flex-1 p-10 w-full'
               initial={{ x: -50, opacity: 0 }}
               animate={inView ? { x: 0, opacity: 1 } : { x: -50, opacity: 0 }}
               transition={{ delay: 0.2, type: 'spring', stiffness: 300, damping: 20 }}>
-              Passionate Full Stack MERN developer skilled in React.js, Node.js, MongoDB, and Express.js.
-               Proficient in building dynamic web applications with clean code and responsive design. Effective communicator and collaborative team player committed to continuous learning. Let's create exceptional digital solutions together.
+           I have completed an extensive MERN stack course and have executed impactful projects. My skills were honed during a one-month web development Internship, and I showcased my abilities by <span className='text-[#F16A6A]'>winning First prize</span> in a web development Hackathon for my Full-stack website.
             </motion.p>
             <p className='flex-2'>
-              <motion.img
+              <motion.img 
                 src={about}
                 alt="aboutimage"
                 className='w-full h-auto'
