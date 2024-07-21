@@ -11,7 +11,7 @@ const SocialLinks = () => {
             child:(
                 <>LinkedIn<FaLinkedin size={30}/></>
             ),
-            href:'https://www.linkedin.com/feed/',
+            href:'https://www.linkedin.com/in/mugunthan-developer/',
             style:'rounded-tr-md'
         },
         {
@@ -19,7 +19,7 @@ const SocialLinks = () => {
             child:(
                 <>Github<FaGithub size={30}/></>
             ),
-            href:'https://github.com/'
+            href:'https://github.com/Mugunthan03'
         },
         {
             id:3,

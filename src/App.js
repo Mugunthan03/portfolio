@@ -21,11 +21,9 @@ const App = () => {
         <SocialLinks />
         <About />
         <Education />
-        <ProjectSection />
-    
+        <ProjectSection />    
         <Experience />
-        <Contact />
-       
+        <Contact />      
         
     </div>
   )

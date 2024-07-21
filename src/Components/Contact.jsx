@@ -27,12 +27,12 @@ const Contact = () => {
         {
             id: 3,
             child: <FaLinkedin size={30} />,
-            href: 'https://www.linkedin.com/feed/'
+            href: 'https://www.linkedin.com/in/mugunthan-developer/'
         },
         {
             id: 4,
             child: <FaGithub size={30} />,
-            href: 'https://github.com/'
+            href: 'https://github.com/Mugunthan03'
         }
     ];
 
@@ -50,8 +50,9 @@ const Contact = () => {
                         <motion.input
                             type='text'
                             name='username'
+                            required
                             placeholder='Enter your name'
-                            className='bg-transparent p-2 border border-2 rounded-md text-white outline-none'
+                            className='bg-transparent p-2 border-2 rounded-md text-white outline-none'
                             initial={{ opacity: 0, y: 50 }}
                             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                             transition={{ duration: 0.5, delay: 0.2 }}
@@ -59,8 +60,9 @@ const Contact = () => {
                         <motion.input
                             type='email'
                             name='Email'
+                            required
                             placeholder='Enter your Email'
-                            className='bg-transparent p-2 border border-2 rounded-md text-white outline-none my-6'
+                            className='bg-transparent p-2  border-2 rounded-md text-white outline-none my-6'
                             initial={{ opacity: 0, y: 50 }}
                             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                             transition={{ duration: 0.5, delay: 0.4 }}
@@ -69,7 +71,8 @@ const Contact = () => {
                             name='message'
                             placeholder='Enter your message'
                             rows={7}
-                            className='bg-transparent border border-2 rounded-md p-5 text-white outline-none'
+                            required
+                            className='bg-transparent  border-2 rounded-md p-5 text-white outline-none'
                             initial={{ opacity: 0, y: 50 }}
                             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                             transition={{ duration: 0.5, delay: 0.6 }}

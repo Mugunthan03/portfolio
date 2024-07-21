@@ -34,7 +34,7 @@ const Navbar = () => {
       <div>
         <h1 className="text-2xl md:text-3xl font-signature tracking-[.20em] cursor-pointer text-white md:text-black ">Mugunthan</h1>
       </div>
-        <ul className=" flex gap-8 hidden md:flex">
+        <ul className=" gap-8 hidden md:flex">
           {
             links.map(({id,name})=>(
                 <li key={id} className="cursor-pointer hover:text-gray-500 hover:scale-100 duration-200 font-bold text-[#080705]">
